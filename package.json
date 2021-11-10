@@ -56,7 +56,7 @@
         "@web3-react/walletconnect-connector": "^6.2.4",
         "@web3-react/walletlink-connector": "^6.2.5",
         "accounting": "^0.4.1",
-        "algoliasearch": "^3.33.0",
+        "algoliasearch": "^4.10.5",
         "basscss": "^8.0.3",
         "blockies": "^0.0.2",
         "bowser": "^1.9.4",
