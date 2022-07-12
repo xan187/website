@@ -131,7 +131,7 @@
         "semver-sort": "0.0.4",
         "styled-components": "^5.3.1",
         "thenby": "^1.2.3",
-        "truffle-contract": "2.0.1",
+        "truffle-contract": "4.0.31",
         "urql": "^2.0.4",
         "valid-url": "^1.0.9",
         "web3-provider-engine": "14.0.6",
