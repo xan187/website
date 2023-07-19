@@ -1,0 +1,163 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > request > extend:
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > request > extend':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > request > extend':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > request > extend':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > request > extend':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > request > extend':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > request > extend':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > request > extend':
+        patched: '2023-05-25T18:37:01.192Z'
+  SNYK-JS-LODASH-567746:
+    - '@0x/subproviders > ganache-core > web3-provider-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/order-utils > @0x/contract-wrappers > @0x/base-contract > @0x/web3-wrapper > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - web3-provider-engine > eth-block-tracker > json-rpc-engine > async > lodash:
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > ethereumjs-block > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - styled-components > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/order-utils > @0x/contract-wrappers > @0x/base-contract > @0x/web3-wrapper > @0x/assert > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/order-utils > @0x/contract-wrappers > @0x/base-contract > @0x/web3-wrapper > @0x/assert > @0x/utils > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-block > async > lodash:
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > ethereumjs-block > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-block > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-block > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-block > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-generator > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-register > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-block > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-block > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2023-05-25T18:37:01.192Z'
+    - web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-generator > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-generator > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-register > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-register > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-block > async > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-generator > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-register > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2023-05-25T18:37:01.192Z'
