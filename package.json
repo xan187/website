@@ -75,7 +75,7 @@
         "ethers": "^5.0.24",
         "find-versions": "^2.0.0",
         "flickity": "^2.2.2",
-        "fuse.js": "^3.4.6",
+        "fuse.js": "^6.4.6",
         "graphql": "^15.5.1",
         "graphql-request": "^3.5.0",
         "is-mobile": "^0.2.2",
