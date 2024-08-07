@@ -1,0 +1,69 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - '@0x/subproviders > web3-provider-engine > request > extend':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: 'npm:extend:20180424'
+        path: '@0x/subproviders > web3-provider-engine > request > extend'
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > request > extend':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders >
+          web3-provider-engine > request > extend
+  SNYK-JS-LODASH-567746:
+    - web3-provider-engine > async > lodash:
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: web3-provider-engine > async > lodash
+    - web3-provider-engine > ethereumjs-block > async > lodash:
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: web3-provider-engine > ethereumjs-block > async > lodash
+    - '@0x/subproviders > web3-provider-engine > async > lodash':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@0x/subproviders > web3-provider-engine > async > lodash'
+    - '@0x/subproviders > ganache > async-eventemitter > async > lodash':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@0x/subproviders > ganache > async-eventemitter > async > lodash'
+    - '@0x/contracts-dev-utils > @0x/base-contract > ethereumjs-vm > async-eventemitter > async > lodash':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @0x/contracts-dev-utils > @0x/base-contract > ethereumjs-vm >
+          async-eventemitter > async > lodash
+    - '@0x/contracts-treasury > @0x/base-contract > @ethereumjs/vm > async-eventemitter > async > lodash':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @0x/contracts-treasury > @0x/base-contract > @ethereumjs/vm >
+          async-eventemitter > async > lodash
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > web3-provider-engine > async > lodash':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders >
+          web3-provider-engine > async > lodash
+    - '@0x/order-utils > @0x/contract-wrappers > @0x/base-contract > ethereumjs-vm > async-eventemitter > async > lodash':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @0x/order-utils > @0x/contract-wrappers > @0x/base-contract >
+          ethereumjs-vm > async-eventemitter > async > lodash
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > ethereumjs-vm > async-eventemitter > async > lodash':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @0x/asset-buyer > @0x/subproviders > ganache-core > ethereumjs-vm >
+          async-eventemitter > async > lodash
+    - '@0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders > ganache > async-eventemitter > async > lodash':
+        patched: '2024-08-07T08:17:39.326Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @0x/contracts-treasury > @0x/protocol-utils > @0x/subproviders >
+          ganache > async-eventemitter > async > lodash
