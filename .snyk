@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - truffle-contract > truffle-interface-adapter > web3 > web3-bzz > swarm-js > eth-lib > servify > request > extend:
+        patched: '2024-08-08T03:11:10.916Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          truffle-contract > truffle-interface-adapter > web3 > web3-bzz >
+          swarm-js > eth-lib > servify > request > extend
+    - '@0x/asset-buyer > @0x/subproviders > ganache-core > web3 > web3-bzz > swarm-js > eth-lib > servify > request > extend':
+        patched: '2024-08-08T03:11:10.916Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @0x/asset-buyer > @0x/subproviders > ganache-core > web3 > web3-bzz >
+          swarm-js > eth-lib > servify > request > extend
+  SNYK-JS-LODASH-567746:
+    - truffle-contract > truffle-interface-adapter > lodash:
+        patched: '2024-08-08T03:11:10.916Z'
+        id: SNYK-JS-LODASH-567746
+        path: truffle-contract > truffle-interface-adapter > lodash
