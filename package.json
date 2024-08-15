@@ -43,7 +43,7 @@
     "@0x/contracts-treasury": "^1.4.20",
     "@0x/json-schemas": "^6.4.0",
     "@0x/order-utils": "^10.0.1",
-    "@0x/subproviders": "^7.0.0",
+    "@0x/subproviders": "^8.0.1",
     "@0x/utils": "^7.0.0",
     "@0x/web3-wrapper": "^7.0.2",
     "@reach/dialog": "^0.11.2",
@@ -135,7 +135,7 @@
     "truffle-contract": "4.0.31",
     "urql": "^2.0.4",
     "valid-url": "^1.0.9",
-    "web3-provider-engine": "16.0.8",
+    "web3-provider-engine": "17.0.0",
     "xml-js": "^1.6.4",
     "@snyk/protect": "latest"
   },
