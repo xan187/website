@@ -16,6 +16,10 @@ patch:
         path: >-
           @0x/asset-buyer > @0x/subproviders > ganache-core > web3 > web3-bzz >
           swarm-js > eth-lib > servify > request > extend
+    - react-markdown > remark-parse > unified > extend:
+        patched: '2024-09-10T13:16:30.956Z'
+        id: 'npm:extend:20180424'
+        path: react-markdown > remark-parse > unified > extend
   SNYK-JS-LODASH-567746:
     - truffle-contract > truffle-interface-adapter > lodash:
         patched: '2024-08-08T03:11:10.916Z'
