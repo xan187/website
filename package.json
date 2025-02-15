@@ -73,7 +73,7 @@
     "dotenv": "^10.0.0",
     "dotenv-webpack": "^7.0.3",
     "ethereum-types": "^3.6.0",
-    "ethereumjs-util": "^5.2.1",
+    "ethereumjs-util": "^6.0.0",
     "ethers": "^6.0.0",
     "find-versions": "^4.0.0",
     "flickity": "^2.2.2",
